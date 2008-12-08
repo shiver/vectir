@@ -1,0 +1,19 @@
+09-12-2008
+
+Vectir is a Tetris clone, but primarily an attempt to get a working 2D game 
+engine up and running. It is written using C and the SDL libs and as such, 
+you will need to have SDL installed on your system.
+
+Testing/Dev has been done using both Linux and Windows XP, so it should 
+compile on both.
+
+It is still a work in progress, so use with caution.
+
+The Alexis.ttf font was downloaded from http://www.webpagepublicity.com/.
+All other images were created by myself.
+
+All code is licensed under the latest GPL.
+
+If you have any questions/suggestions, please feel from to contact me.
+
+shivermail at gmail dot com

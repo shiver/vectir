@@ -1,0 +1,8 @@
+resolution=440x480
+bpp=16
+sfx=0
+music=0
+custom_music_folder=
+starting_level=0
+show_score_increments=1
+fullscreen=0

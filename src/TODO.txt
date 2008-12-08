@@ -1,0 +1,36 @@
+Multiple fonts / sizes
+
+Menu:
+    New menu system (current is almost completely hardcoded)
+    Options for menu entry types:
+        On/Off (stateful)
+        Select from list (Hi, Med, Low)
+        Redirect to different menu page
+        Keypress selection (configure keys)
+        Bar value setting (audio, gamma, etc)
+        Text Entry (player name)
+		Event Trigger	
+
+    Psuedo syntax:
+        {
+            MenuPage *page1 = NULL;
+            MenuEntry *entry_startPage = NULL;
+
+            // allocate mem for new menu page
+			page1 = calloc(1, sizeof(MenuPage));
+            entry_start = calloc(1, sizeof(MenuEntry));
+
+			// error checking for successful allocation over here
+
+			sprintf(entry_start->text, "Start");
+			entry_start->
+            menuAddEntry(page1, entry_startPage);
+			
+			free(page1);
+			free(entry_start);
+        }
+
+Sound engine
+Removal effect
+Some background gfx for menu and main screen
+high scores
